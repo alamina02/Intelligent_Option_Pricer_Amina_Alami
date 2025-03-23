@@ -1,8 +1,8 @@
-# 📈 Intelligent Option Pricer for S&P 500 Index
+#  Intelligent Option Pricer for S&P 500 Index
 
 This project implements a robust and modular pricing engine for European options on indices such as the S&P 500. It combines classic pricing models (Black-Scholes, Monte Carlo, Binomial Tree), modern machine learning approximation, real market data retrieval, and benchmarking — all coded from scratch in Python.
 
-## 🔥 Objectives
+##  Objectives
 
 - Implement pricing models without using specialized financial libraries
 - Retrieve real market data (spot, volatility, yield curve)
@@ -12,7 +12,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 .
@@ -32,7 +32,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 🧠 Pricers Implemented
+##  Pricers Implemented
 
 ### 1. Black-Scholes (Closed-Form)
 - From-scratch implementation
@@ -60,7 +60,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 📊 Market Data Integration
+##  Market Data Integration
 
 ### Spot Price & Volatility
 - Retrieved from Yahoo Finance (SPY ETF)
@@ -74,7 +74,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 🧪 Benchmarking
+##  Benchmarking
 
 Run all pricers on a set of 200 test options and compare:
 
@@ -89,7 +89,7 @@ Run all pricers on a set of 200 test options and compare:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 python Benchmarking.py
 ```
 
-### 4. Optional: Retrain Neural Network (⚠️ Slow)
+### 4. Optional: Retrain Neural Network ( Slow)
 
 ```bash
 python NeuralNetworkPricer.py  # Regenerates model + benchmark CSV
@@ -118,7 +118,7 @@ python NeuralNetworkPricer.py  # Regenerates model + benchmark CSV
 
 ---
 
-## ⚠ Notes
+##  Notes
 
 - All pricing models were implemented from scratch (no QuantLib pricing)
 - The `nn_model.keras` and `nn_benchmark_results.csv` are provided to avoid re-training
@@ -127,33 +127,26 @@ python NeuralNetworkPricer.py  # Regenerates model + benchmark CSV
 
 ---
 
-## 📄 Report
+##  Report
 
 For detailed methodology, design choices, equations, and critiques, see:
 
-📘 `Intelligent_Option_Pricer.pdf`
+ `Intelligent_Option_Pricer.pdf`
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Amina Alami**  
-M2 Quantitative Finance (École Polytechnique / Sorbonne)  
+M2 El Karoui (École Polytechnique / Sorbonne)  
 March 2025
 
 ---
 
-## 🏁 Next Steps / Improvements
+##  Next Steps / Improvements
 
 - Add support for American options (Binomial)
 - Implement Heston or local volatility models
 - Generalize NN to puts and exotic options
 - Improve MC variance reduction (e.g., control variates)
 - Explore GPU acceleration
-
----
-
-## 📬 Contact
-
-For questions or collaboration:
-📧 amina.alami@example.com *(Replace with real email if public)*
