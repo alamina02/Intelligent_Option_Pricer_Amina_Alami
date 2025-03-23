@@ -141,12 +141,3 @@ For detailed methodology, design choices, equations, and critiques, see:
 M2 El Karoui (École Polytechnique / Sorbonne)  
 March 2025
 
----
-
-##  Next Steps / Improvements
-
-- Add support for American options (Binomial)
-- Implement Heston or local volatility models
-- Generalize NN to puts and exotic options
-- Improve MC variance reduction (e.g., control variates)
-- Explore GPU acceleration
