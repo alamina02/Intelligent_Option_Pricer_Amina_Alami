@@ -1,8 +1,8 @@
-# 📈 Intelligent Option Pricer for S&P 500 Index
+#  Intelligent Option Pricer for S&P 500 Index
 
 This project implements a robust and modular pricing engine for European options on indices such as the S&P 500. It combines classic pricing models (Black-Scholes, Monte Carlo, Binomial Tree), modern machine learning approximation, real market data retrieval, and benchmarking — all coded from scratch in Python.
 
-## 🔥 Objectives
+##  Objectives
 
 - Implement pricing models without using specialized financial libraries
 - Retrieve real market data (spot, volatility, yield curve)
@@ -12,7 +12,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 .
@@ -32,7 +32,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 🧠 Pricers Implemented
+##  Pricers Implemented
 
 ### 1. Black-Scholes (Closed-Form)
 - From-scratch implementation
@@ -60,7 +60,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 📊 Market Data Integration
+##  Market Data Integration
 
 ### Spot Price & Volatility
 - Retrieved from Yahoo Finance (SPY ETF)
@@ -74,7 +74,7 @@ This project implements a robust and modular pricing engine for European options
 
 ---
 
-## 🧪 Benchmarking
+##  Benchmarking
 
 Run all pricers on a set of 200 test options and compare:
 
@@ -89,7 +89,7 @@ Run all pricers on a set of 200 test options and compare:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
