@@ -1,0 +1,24 @@
+# Python
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv/
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keras and model files
+*.h5
+*.keras
+
+# Data and result files
+*.csv
+*.log
+

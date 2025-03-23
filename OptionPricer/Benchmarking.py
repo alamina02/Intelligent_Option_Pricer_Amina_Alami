@@ -77,7 +77,7 @@ class OptionBenchmarker:
             })
 
             # Binomial Tree - Recursive
-            bt_rec = BinomialTreePricer(S, K, T, r, sigma, N=20, option_type="call", dividend_type="continuous", q=0.0)
+            bt_rec = BinomialTreePricer(S, K, T, r, sigma, N=10, option_type="call", dividend_type="continuous", q=0.0)
             start = time.time()
             bt_price_r = bt_rec.recursive_price()
             bt_time_r = (time.time() - start) * 1000
